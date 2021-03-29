@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Encyclopedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="Star_Wars_Logo.svg" alt="honkler">
+                <label for="category">Select Category:</label>
+                <select name="category" id="category">
+                    <option value="">Select</option>
+                    <option value="people">People</option>
+                    <option value="films">Films</option>
+                    <option value="starships">Starships</option>
+                    <option value="planets">Planets</option>
+                    <option value="vehicles">Vehicles</option>
+                    <option value="species">Species</option>
+                </select>
+        </div>
+        <div id="data"></div>
+    </div>
+    <div class="Footer">
+        <p>Signup for Important Updates</p>
+        <form id='form-1' action='proces.php' method='post'>
+            First name <input type='text' name='first_name'>
+            Last name <input type='text' name='last_name'>
+            Email <input type='text' name='first_name'>
+            <input type='submit' value='submit!'>
+        </form>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="proj-2.js"></script>
+</body>
+</html>

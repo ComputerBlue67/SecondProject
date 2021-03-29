@@ -1,0 +1,30 @@
+.navbar{
+    height:100px;
+    width:75%;
+    margin:20px auto;
+    border:1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+}
+body{
+    background-color: coral;
+}
+label{
+    font-size: 35px;
+    color:yellow;
+}
+select{
+    width:100px;
+    height:35px;
+}
+p{
+    font-weight: 500;
+    font-size: 25px;
+}
+img{
+    height:90px;
+    width:125px;
+    margin-right: 15px;
+}
